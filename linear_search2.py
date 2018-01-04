@@ -8,9 +8,9 @@
 myList = [25, 1, 50, 57, 2, 3, 4, 5, 6, 7, 10, 8, 9]
 
 resultTag = False
-
+r = range(len(myList))
 def ls_answer(x):
-    for cnt in range(len(myList)):
+    for cnt in r:
         if (myList[cnt] == x):
             resultTag = True
             print('%d number found at %d position' % (x, cnt))
@@ -25,5 +25,3 @@ mySearch = int(input("Please enter your number that you want to search : "))
 
 # Funciton ls_asnwer using here
 ls_answer(mySearch)
-
-
