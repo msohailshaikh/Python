@@ -8,10 +8,10 @@
 myList = [25, 1, 50, 57, 2, 3, 4, 5, 6, 7, 10, 8, 9]
 
 resultTag = False
-
+r = range(len(myList))
 def ls_Search(x):
     cnt = 0
-    while (cnt in range(len(myList))):
+    while (cnt in r):
         if(myList[cnt] == x):
             resultTag = True
             print('%d number found at %d position'%(x,cnt))
