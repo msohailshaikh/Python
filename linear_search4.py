@@ -9,7 +9,7 @@ myList = [25, 1, 50, 57, 2, 3, 4, 5, 6, 7, 10, 8, 9]
 
 resultTag = False
 r = range(len(myList))
-def ls_Search(myList, mySearchVal):
+def linear_Search(myList, mySearchVal):
     cnt = 0
     while (cnt in r):
         if(myList[cnt] == mySearchVal):
@@ -26,4 +26,4 @@ def ls_Search(myList, mySearchVal):
 mySearchVal = int(input("Please enter your number that you want to search : "))
 
 # Using funciton here
-ls_Search(myList, mySearchVal)
+linear_Search(myList, mySearchVal)
