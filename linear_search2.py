@@ -1,7 +1,7 @@
 # Python Program for Linear Search
 # Author: Sohail Shaikh
 # Created: 4-Jan-2018
-# Modified: 4-Jan-2018
+# Modified: 6-Jan-2018
 # Script: Linear_Search2.py
 # Functionalaties:  For Loop, def <Function>
 
@@ -9,19 +9,19 @@ myList = [25, 1, 50, 57, 2, 3, 4, 5, 6, 7, 10, 8, 9]
 
 resultTag = False
 r = range(len(myList))
-def ls_answer(x):
+def linear_search(myList, mySearchVal):
     for cnt in r:
-        if (myList[cnt] == x):
+        if (myList[cnt] == mySearchVal):
             resultTag = True
-            print('%d number found at %d position' % (x, cnt))
+            print('%d number found at %d position' % (mySearchVal, cnt))
             break
         else:
             resultTag = False
     if (resultTag == False):
-        print('%d number not found in the List' % x)
+        print('%d number not found in the List' % mySearchVal)
 
 
-mySearch = int(input("Please enter your number that you want to search : "))
+mySearchVal = int(input("Please enter your number that you want to search : "))
 
 # Funciton ls_asnwer using here
-ls_answer(mySearch)
+linear_search(myList, mySearchVal)
