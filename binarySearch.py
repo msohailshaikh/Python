@@ -1,7 +1,7 @@
 # Python Program for Linear Search
 # Author: Sohail Shaikh
-# Created: 4-Jan-2018
-# Modified: 6-Jan-2018
+# Created: 6-Jan-2018
+# Modified: 9-Jan-2018
 # Script: Linear_Search2.py
 # Functionalaties:  For Loop, def <Function>
 
