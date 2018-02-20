@@ -2,7 +2,7 @@
 # Author:       Sohail Shaikh
 # Created:      19-Feb-2018
 # Modified:     19-Feb-2018
-# Script:       getTwitter-Feed.py
+# Script:       getTwitterFeed.py
 
 import tweepy
 from tweepy import OAuthHandler
