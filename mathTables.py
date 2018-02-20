@@ -1,6 +1,3 @@
-# Math Table Generation program
-# Take input from the user untill a vowel is entered
-
 # Python:       Program for Math Table Generation
 # Author:       Sohail Shaikh
 # Created:      01-Jan-2018
