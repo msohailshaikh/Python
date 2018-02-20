@@ -24,4 +24,5 @@ api.verify_credentials()
 s = tweepy.Cursor(api.home_timeline).items(6)
 
 for status in s:
-    print(status.created_at, status.text)
+    print(status.id, "\t", status.created_at, "\t", status.text)
+
